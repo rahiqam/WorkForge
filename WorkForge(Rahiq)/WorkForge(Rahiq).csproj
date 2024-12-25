@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2B3DA94A-61FB-4CFC-9F9B-02E25A029E24}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WorkForge_Rahiq_</RootNamespace>
+    <AssemblyName>WorkForge%28Rahiq%29</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About %28customer%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About %28customer%29.Designer.cs">
+      <DependentUpon>About %28customer%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="About %28worker%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About %28worker%29.Designer.cs">
+      <DependentUpon>About %28worker%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="account security.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="account security.Designer.cs">
+      <DependentUpon>account security.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin customer info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin customer info.Designer.cs">
+      <DependentUpon>Admin customer info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin worker info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin worker info.Designer.cs">
+      <DependentUpon>Admin worker info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="availability status.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="availability status.Designer.cs">
+      <DependentUpon>availability status.cs</DependentUpon>
+    </Compile>
+    <Compile Include="create account customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="create account customer.Designer.cs">
+      <DependentUpon>create account customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Create labor account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Create labor account.Designer.cs">
+      <DependentUpon>Create labor account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer Info.Designer.cs">
+      <DependentUpon>Customer Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Join as.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Join as.Designer.cs">
+      <DependentUpon>Join as.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hire Now.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hire Now.Designer.cs">
+      <DependentUpon>Hire Now.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hiring History.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hiring History.Designer.cs">
+      <DependentUpon>Hiring History.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main admin.Designer.cs">
+      <DependentUpon>Main admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main Labor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Labor.Designer.cs">
+      <DependentUpon>Main Labor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="payouts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="payouts.Designer.cs">
+      <DependentUpon>payouts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="work history.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="work history.Designer.cs">
+      <DependentUpon>work history.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkerInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkerInfo.Designer.cs">
+      <DependentUpon>WorkerInfo.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="About %28customer%29.resx">
+      <DependentUpon>About %28customer%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="About %28worker%29.resx">
+      <DependentUpon>About %28worker%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="account security.resx">
+      <DependentUpon>account security.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin customer info.resx">
+      <DependentUpon>Admin customer info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin worker info.resx">
+      <DependentUpon>Admin worker info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="availability status.resx">
+      <DependentUpon>availability status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="create account customer.resx">
+      <DependentUpon>create account customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create labor account.resx">
+      <DependentUpon>Create labor account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer Info.resx">
+      <DependentUpon>Customer Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Join as.resx">
+      <DependentUpon>Join as.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hire Now.resx">
+      <DependentUpon>Hire Now.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hiring History.resx">
+      <DependentUpon>Hiring History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main admin.resx">
+      <DependentUpon>Main admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Labor.resx">
+      <DependentUpon>Main Labor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="payouts.resx">
+      <DependentUpon>payouts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="work history.resx">
+      <DependentUpon>work history.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkerInfo.resx">
+      <DependentUpon>WorkerInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
